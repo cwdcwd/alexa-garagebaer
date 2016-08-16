@@ -14,7 +14,8 @@ GarageBaer.prototype.getState = function() {
     var options = {
         method: 'GET',
         uri: API_BASEURL + API_ENDPOINT_STATE,
-        json: true
+        json: true,
+        timeout: 120000
     };
     console.log(options);
     return requestPromise(options);
