@@ -1,16 +1,20 @@
 {
-    "name": "garagedoor",
-    "version": "1.0.0",
-    "description": "photon based garagedoor opener",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "author": "CWD",
-    "license": "ISC",
-    "dependencies": {
-        "alexa-app": "^2.3.4",
-        "lodash": "^4.13.1",
-        "request-promise": "^4.0.2"
-    }
+  "name": "garagedoor",
+  "version": "1.0.0",
+  "description": "photon based garagedoor opener",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "CWD",
+  "license": "ISC",
+  "dependencies": {
+    "alexa-app": "^2.3.4",
+    "lodash": "^4.13.1",
+    "request-promise": "^4.0.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-zip": "^3.2.0"
+  }
 }
